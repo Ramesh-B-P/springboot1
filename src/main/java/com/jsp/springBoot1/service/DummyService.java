@@ -14,4 +14,16 @@ public class DummyService {
 		return dummyDao.insert(dummyDto);
 		
 	}
+	public Object fetchbyid(DummyDto dummydto) {
+		return dummyDao.fetchbyid(dummydto);
+	}
+	public String delbyid(DummyDto dummydto) {
+		return dummyDao.delbyid(dummydto);
+	}
+	
+	public Object fetchAll() {
+		return dummyDao.fetchAll();
+	}
+	
+	
 }
